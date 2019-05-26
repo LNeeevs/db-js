@@ -1,3 +1,3 @@
 var conteudo = 10;
 
-document.write(conteudo);
+document.write(conteudo)
