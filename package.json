@@ -1,0 +1,24 @@
+{
+  "name": "db-js",
+  "version": "1.0.0",
+  "description": "\"Init a package with TDD\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LNeeevs/db-js.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "study"
+  ],
+  "author": "lucasneeevs <lucasneevs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LNeeevs/db-js/issues"
+  },
+  "homepage": "https://github.com/LNeeevs/db-js#readme"
+}
