@@ -4,7 +4,15 @@
   "description": "\"Init a package with TDD\"",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky":{
+    "hooks":{
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint",
+      "commit-msg": "echo 'Commit has been passed to test. Congratulations!'"
+    }
   },
   "repository": {
     "type": "git",
@@ -23,6 +31,8 @@
   "homepage": "https://github.com/LNeeevs/db-js#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-plugin-react": "^7.13.0"
-  }
+    "eslint-plugin-react": "^7.13.0",
+    "husky": "^2.3.0"
+  },
+  "dependencies": {}
 }
